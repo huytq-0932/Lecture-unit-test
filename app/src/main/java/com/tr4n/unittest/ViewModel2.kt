@@ -1,7 +1,7 @@
 package com.tr4n.unittest
 
 class ViewModel2(
-    private val repository: Repository
+    private val repository: IRepository
 ) {
 
     fun getMax(key1: Int, key2: Int): Int {
