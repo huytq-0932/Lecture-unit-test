@@ -1,8 +1,8 @@
 package com.tr4n.unittest
 
-class Repository {
+class Repository : IRepository {
 
-    fun getNumber(key: Int) =
+   override fun getNumber(key: Int) =
         when (key) {
             in 1..10 -> -1
             in 11..20 -> 0
